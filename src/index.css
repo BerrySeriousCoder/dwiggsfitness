@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-Bebas: "Bebas Neue", sans-serif; 
+  --font-oswald: "Oswald", sans-serif;
+  --font-agharti: "aghartibold" , sans-serif;
+  --font-roboto: "Roboto Condensed" , sans-serif;
+}
+
+@theme {
+  --color-brand-primary : rgb(22,50,44)
+}
+
+@font-face {
+  font-family: 'aghartibold';
+  src: url('./assets/fonts/aghartibold.otf');
+}
