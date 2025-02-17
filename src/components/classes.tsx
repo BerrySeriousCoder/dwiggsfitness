@@ -108,7 +108,7 @@ const FitnessClasses: React.FC = () => {
       const isInView = useInView(ref, { once: true, margin: "-100px 0px" });
 
       const text: string = "FIND THE RIGHT ONE FOR YOU";
-      const text2: string = "ALL CLASSES ARE 45 MINUTES";
+      const text2: string = "LEARN, GROW, AND ACHIEVE MORE";
       
 
   return (
