@@ -5,7 +5,7 @@ import Navbar from './components/navbar'
 // import AboutUs from './pages/aboutus'
 import Footer from './components/footer'
 // import ContactUs from './pages/contact'
-// import FAQ from './pages/faq'
+import FAQ from './pages/faq'
 // import MembershipPage from './pages/membership'
 // import PersonalTraining from './pages/extra'
 import ScrollToTop from './utility/scrolltop'
@@ -21,7 +21,7 @@ function App() {
                       <Route path="/" element={<LandingPage />} />
                       {/* <Route path="/about" element={<AboutUs />} /> */}
                       {/* <Route path="/contact" element={<ContactUs />} /> */}
-                      {/* <Route path="/faq" element={<FAQ />} /> */}
+                      <Route path="/faq" element={<FAQ />} />
                       {/* <Route path="/memberships" element={<MembershipPage />} /> */}
                       {/* <Route path="/pt-small-group-training" element={<PersonalTraining />} /> */}
                       {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
